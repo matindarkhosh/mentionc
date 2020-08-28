@@ -1,0 +1,48 @@
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/eot/IRANSansWeb_Medium.eot');
+	src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_Medium.wof') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_Medium.') format('truetype');
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0')
+    format('embedded-opentype'), url('../webfonts/fa-brands-400.eot')
+    format('woff'), url('../webfonts/fa-brands-400.eot')
+    format('truetype'), url('../webf/fa-brands-400.svg?v=4.1.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    } 
+    html,body{
+        height: 100%;
+    }
+*{
+padding: 0;
+margin: 0;
+font-family: IRANSans;
+}
+.mention-list{
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+        border: 1px solid rgba(0,0,0,.125) !important;
+}
+.mention-list:hover{
+    background-color: rgb(72, 27, 155);
+    color: #ffffff;
+}
+a{
+    color: rgb(46, 187, 223) !important;
+    font-size: 11pt;
+    transition: .6s !important;
+}
+.mention-list:hover a{
+    text-decoration: none !important;
+    color: rgb(158, 158, 158) !important;
+}
